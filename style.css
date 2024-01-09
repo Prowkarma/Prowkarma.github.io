@@ -6,7 +6,7 @@ body {
 
 nav {
     background-color: black;
-    border-top: 4px solid rgb(168, 253, 64);
+    border-top: 15px solid rgb(168, 253, 64);
 }
 
 ul {
@@ -31,7 +31,6 @@ ul {
 }
 
 .nav-item a:hover,
-.nav-item a:target,
 .nav-item a.active {
     color: rgb(168, 253, 64);
 }
@@ -225,24 +224,17 @@ header .title {
     padding-top: 40px;
     }
 
-
-@media screen and (max-width: 600px) {
-    .nav-item a {
-        text-align: center;
+ .title {
+        background-color: black;
+        border-top: 4px solid rgb(168, 253, 64);
+        border-bottom: 4px solid rgb(168, 253, 64);
     }
+    
+ footer {
+    background-color: black;
 
-    .nav-item {
-        display: block;
-        margin: 10px 0;
-    }
+ }
 
-    .image-with-text-container {
-        flex-direction: column;
-    }
 
-   
 
-    .text-next-to-image {
-        text-align: center;
-    }
-}
+
