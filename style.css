@@ -162,12 +162,12 @@ header .title {
     display: flex;
     align-items: center;
     justify-content: start;
-    margin: 20px;
+    margin: 100px;
 }
 
 .about-me-text {
     color: rgb(168, 253, 64);
-    margin-left: 500px;
+    margin: 100px;
     font-size: 30px;
 }
 
