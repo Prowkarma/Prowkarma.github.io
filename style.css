@@ -141,7 +141,7 @@ header .title {
 }
 
 .bottom-images-container .bottom-image {
-    width: 95%;
+    width: auto;
     height: auto;
     display: block;
     margin: 10px auto;
